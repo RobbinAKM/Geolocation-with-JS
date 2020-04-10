@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Geolocation Demo</title>  
+  <meta name="viewport" content="initial-scale=0.60">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="error">You need JavaScript enabled for this application to work!</div>
+  <p id="hud">Aquiring Location<br /><img src="bar.gif" alt="Progress bar"></p>
+  <div id="restaurants">
+  
+    <h1>JOBS NEAR TO YOU</h1>
+    <ul>
+        <li><span data-lat="35.658130" data-lon="139.701588">? miles</span>shibuya station</li>
+        <li><span data-lat="35.666429" data-lon="139.758337">? miles</span> Shinbashi station </li>
+       <li><span data-lat="45.5730307" data-lon="-122.5584282">? miles</span> Original Wow Burger</li>
+        <li><span data-lat="45.573617"  data-lon="-122.5594743">? miles</span> Red Robin</li>
+     
+    </ul>
+
+</div>
+  
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="./distanceCalculator.js"></script>
+  <script src="./geolocation.js"></script>
+</body>
+</html>
